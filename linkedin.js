@@ -1,7 +1,6 @@
 if (document.URL.includes("https://www.linkedin.com")) {
 
 console.log("content.js running");
-apikey = 'AIzaSyAa3S5wueqldLY9LxfdUrhR5ce6q0B-gyM';
 document.addEventListener("keydown", (event) => {
   if (event.key == "Enter") {
     //logic
