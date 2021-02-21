@@ -1,5 +1,4 @@
 console.log("content.js running");
-alert("testing new");
 document.addEventListener("keydown", (event) => {
   if (event.key == "Enter") {
     //logic
