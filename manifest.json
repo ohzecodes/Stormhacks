@@ -8,6 +8,13 @@
       "default_popup":"popup.html",
       "default_options":"options.html"
    },
+   "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js":["popup.js"]
+    }
+  ],
+
    "permissions":[
       "activeTab"
    ]
