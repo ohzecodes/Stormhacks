@@ -3,10 +3,10 @@
    "name":"HoldUp",
    "description":"Catch yourself before you send something you regret",
    "version":"1.0.1",
+   "options_page": "options.html",
    "browser_action":{
       "default_title":"HoldUp",
-      "default_popup":"popup.html",
-      "default_options":"options.html"
+      "default_popup":"popup.html"
    },
    "content_scripts": [
     {
@@ -17,7 +17,8 @@
   ],
 
    "permissions":[
-      "activeTab"
+      "activeTab",
+      "storage"
    ]
 }
 
