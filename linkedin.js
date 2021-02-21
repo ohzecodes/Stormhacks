@@ -1,3 +1,5 @@
+if (document.URL.includes("https://www.linkedin.com")) {
+
 console.log("content.js running");
 alert("testing 123")
 document.addEventListener("keydown", (event) => {
@@ -29,3 +31,4 @@ document.addEventListener("keydown", (event) => {
     }
   }
 });
+}
