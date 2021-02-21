@@ -1,6 +1,5 @@
                                                                              
 if (document.URL.includes("https://app.slack.com/")) {
-    
 let text = "";
 let toxic = false;
 console.log("content.js running");

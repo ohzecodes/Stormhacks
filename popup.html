@@ -1,42 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>HoldUp</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet"
-      type="text/css"
-    />
-    
-    <link
-      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      rel="stylesheet"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/popUpStyle.css">
+  <link rel="stylesheet" href="popup.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="modal-header">
-        <h1 class="logo">
-            <img src="images/logo.png" alt="HoldUp" class="logo-icon"> Hold Up
-            <span class="version">(1.0.0)</span>   
-        </h1>
-    </div>
-
-    <div class="modal-icons">
-        <div class="flex-container">
-            <div class="flex">
-                <i class="fa fa-facebook"></i>
-            </div>
-            <div class="flex">
-                <i class="fa fa-linkedin"></i>
-            </div>
+<div class="container-popup">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Hold Up</div>
+            
+                <!-- List group -->
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        Bootstrap Switch Default
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionDefault" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionDefault" class="label-default"></label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        Bootstrap Switch Primary
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionPrimary" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionPrimary" class="label-primary"></label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        Bootstrap Switch Success
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionSuccess" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionSuccess" class="label-success"></label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        Bootstrap Switch Info
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionInfo" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionInfo" class="label-info"></label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        Bootstrap Switch Warning
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionWarning" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionWarning" class="label-warning"></label>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        Bootstrap Switch Danger
+                        <div class="material-switch pull-right">
+                            <input id="someSwitchOptionDanger" name="someSwitchOption001" type="checkbox"/>
+                            <label for="someSwitchOptionDanger" class="label-danger"></label>
+                        </div>
+                    </li>
+                </ul>
+            </div>            
         </div>
     </div>
+</div>
+
 </body>
 </html>
