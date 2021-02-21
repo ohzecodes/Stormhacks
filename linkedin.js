@@ -26,7 +26,7 @@ document.addEventListener("keydown", (event) => {
         let m = JSON.parse(res.target.response);
         let p = m.attributeScores.TOXICITY.summaryScore.value;
         if (p > 0.5) {
-          alert("Wow, Hold up, Think, \n linkedIn is a professional website!");
+          alert("Woah, Hold up, Think, \n linkedIn is a professional website!");
         }
       };
     }
