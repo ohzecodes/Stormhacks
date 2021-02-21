@@ -1,5 +1,5 @@
 // linkedin
-apikey = "AIzaSyAa3S5wueqldLY9LxfdUrhR5ce6q0B-gyM";
+
 
 console.log("content.js running");
 alert("testing");
