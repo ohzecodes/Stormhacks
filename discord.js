@@ -1,16 +1,17 @@
-                                                                             
 if (document.URL.includes("https://discord.com/")) {
-    
-    let text = "";
+                                                                                      let text = "";
     let toxic = false;
     console.log("content.js running");
     
     document.addEventListener("keydown", (event) => {
     
-      if (event.key == "Enter" && toxic) {
+      if (event.key == "Enter") {
+            if(toxic){
             event.preventDefault(); //this works for links
             event.stopPropagation(); //this does not work
-        alert("Woah, Hold up. A little too toxic");
+            alert("Woah, Hold up. A little too toxic");
+            }
+            text=""
         }
        else {
         text = document.getElementsByClassName('textArea-12jD-V textAreaSlate-1ZzRVj slateContainer-3Qkn2x')[0].children[0].textContent

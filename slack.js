@@ -6,11 +6,15 @@ console.log("content.js running");
 
 document.addEventListener("keydown", (event) => {
 
-  if (event.key == "Enter" && toxic) {
+  if (event.key == "Enter") {
+        if(toxic){
         event.preventDefault(); //this works for links
         event.stopPropagation(); //this does not work
         alert("Woah, Hold up. A little too toxic");
-    }
+        } else {
+        text=""
+        }
+    } 
    else {
     text = document.getElementsByClassName('ql-editor')[0].children[0].textContent
     console.log(text);
