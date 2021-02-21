@@ -10,7 +10,7 @@ document.addEventListener("keydown", (event) => {
   if (event.key == "Enter" && toxic) {
         event.preventDefault(); //this works for links
         event.stopPropagation(); //this does not work
-    alert("Woah, Hold up, Think, \n linkedIn is a professional website!");
+        alert("Woah, Hold up. A little too toxic");
     }
    else {
     text = document.getElementsByClassName('ql-editor')[0].children[0].textContent

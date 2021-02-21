@@ -10,8 +10,8 @@
    },
    "content_scripts": [
     {
-      "matches": ["https://www.linkedin.com/*","https://app.slack.com/client/*"],
-      "js":["jquery-3.5.1.min.js","key.js","linkedin.js","slack.js"]
+      "matches": ["https://www.linkedin.com/*","https://app.slack.com/client/*", "https://discord.com/channels/*"],
+      "js":["jquery-3.5.1.min.js","key.js","linkedin.js","slack.js","discord.js"]
     }
   ],
 
