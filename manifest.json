@@ -5,7 +5,8 @@
    "version":"1.0.0",
    "browser_action":{
       "default_title":"HoldUp",
-      "default_popup":"popup.html"
+      "default_popup":"popup.html",
+      "default_options":"options.html"
    },
    "permissions":[
       "activeTab"
